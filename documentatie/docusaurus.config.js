@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Documentatie',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'PauloMoekotte', // Usually your GitHub org/user name.
+  projectName: 'documentatie', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Documentatie',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -50,16 +50,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/PauloMoekotte',
+            },
+            {
+              label: 'LinkedIn',
+              href: 'https://twitter.com/PauloMoekotte',
             },
           ],
         },
@@ -68,7 +64,7 @@ module.exports = {
           items: [
             {
               label: 'Blog',
-              to: 'blog',
+              href: 'http://www.paulomoekotte.nl/blog',
             },
             {
               label: 'GitHub',
