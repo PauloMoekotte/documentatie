@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Documentatie',
-  tagline: 'The tagline of my site',
+  tagline: 'De subtitel',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -76,7 +76,15 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
-  presets: [
+ module.exports = {
+  // ...
+  url: 'https://paulomoekotte.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'documentatie.github.io',
+  organizationName: 'PauloMoekotte',
+  // ...
+},
+ presets: [
     [
       '@docusaurus/preset-classic',
       {
